@@ -1,24 +1,3 @@
- * ============================================================
- * Proyecto: Robot Minisumo
- * Autor:    Jorge Guillermo Puente León - 24150
- * Curso:    Simulación de Circuitos y Fabricación de PCB
- * Fecha:    mayo 2026
- * Version:  1.0.0
- * 
- * Descripción:
- *   Firmware para control inalámbrico de robot Minisumo
- *   mediante DualShock 4 y Bluetooth usando Bluepad32.
- *   El joystick izquierdo controla el Motor A y el joystick
- *   derecho controla el Motor B (configuración tipo tank).
- * 
- * Dependencias:
- *   - Bluepad32 (incluida en el board package ESP32+Bluepad32)
- * 
- * Historial de versiones:
- *   v1.0.0 - Mayo 2026 - Versión inicial funcional
- * ============================================================
- */
-
 #include <Bluepad32.h>
 
 // ——————————————————————————————————————————
